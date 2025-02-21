@@ -1,0 +1,69 @@
+[
+    {
+        "polish_type": "extreme_minor",
+        "file_name": "polished_extreme_minor_llama_predictions.json",
+        "prediction_labels": {
+            "AI": {
+                "count": 20,
+                "rate": 0.39215686274509803
+            },
+            "human": {
+                "count": 31,
+                "rate": 0.6078431372549019
+            }
+        }
+    },
+    {
+        "polish_type": "minor",
+        "file_name": "polished_minor_llama_predictions.json",
+        "prediction_labels": {
+            "AI": {
+                "count": 19,
+                "rate": 0.37254901960784315
+            },
+            "human": {
+                "count": 32,
+                "rate": 0.6274509803921569
+            }
+        }
+    },
+    {
+        "polish_type": "slight_major",
+        "file_name": "polished_slight_major_llama_predictions.json",
+        "prediction_labels": {
+            "AI": {
+                "count": 22,
+                "rate": 0.43137254901960786
+            },
+            "human": {
+                "count": 29,
+                "rate": 0.5686274509803921
+            }
+        }
+    },
+    {
+        "polish_type": "major",
+        "file_name": "polished_major_llama_predictions.json",
+        "prediction_labels": {
+            "AI": {
+                "count": 21,
+                "rate": 0.42
+            },
+            "human": {
+                "count": 29,
+                "rate": 0.58
+            }
+        }
+    },
+    {
+        "polish_type": "average",
+        "prediction_labels": {
+            "AI": {
+                "rate": 0.40401960784313723
+            },
+            "human": {
+                "rate": 0.5959803921568627
+            }
+        }
+    }
+]

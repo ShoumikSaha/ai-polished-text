@@ -1,0 +1,69 @@
+[
+    {
+        "polish_type": "extreme_minor",
+        "file_name": "polished_extreme_minor_gpt_predictions.json",
+        "prediction_labels": {
+            "AI": {
+                "count": 3,
+                "rate": 0.06976744186046512
+            },
+            "human": {
+                "count": 40,
+                "rate": 0.9302325581395349
+            }
+        }
+    },
+    {
+        "polish_type": "minor",
+        "file_name": "polished_minor_gpt_predictions.json",
+        "prediction_labels": {
+            "AI": {
+                "count": 4,
+                "rate": 0.09302325581395349
+            },
+            "human": {
+                "count": 39,
+                "rate": 0.9069767441860465
+            }
+        }
+    },
+    {
+        "polish_type": "slight_major",
+        "file_name": "polished_slight_major_gpt_predictions.json",
+        "prediction_labels": {
+            "AI": {
+                "count": 11,
+                "rate": 0.2619047619047619
+            },
+            "human": {
+                "count": 31,
+                "rate": 0.7380952380952381
+            }
+        }
+    },
+    {
+        "polish_type": "major",
+        "file_name": "polished_major_gpt_predictions.json",
+        "prediction_labels": {
+            "AI": {
+                "count": 12,
+                "rate": 0.3
+            },
+            "human": {
+                "count": 28,
+                "rate": 0.7
+            }
+        }
+    },
+    {
+        "polish_type": "average",
+        "prediction_labels": {
+            "AI": {
+                "rate": 0.18117386489479514
+            },
+            "human": {
+                "rate": 0.8188261351052049
+            }
+        }
+    }
+]

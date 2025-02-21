@@ -1,0 +1,111 @@
+[
+    {
+        "polish_percent": 1,
+        "file_name": "polished1_llama70b_predictions.json",
+        "prediction_labels": {
+            "AI": {
+                "count": 33,
+                "rate": 0.66
+            },
+            "human": {
+                "count": 17,
+                "rate": 0.34
+            }
+        }
+    },
+    {
+        "polish_percent": 5,
+        "file_name": "polished5_llama70b_predictions.json",
+        "prediction_labels": {
+            "AI": {
+                "count": 35,
+                "rate": 0.7
+            },
+            "human": {
+                "count": 15,
+                "rate": 0.3
+            }
+        }
+    },
+    {
+        "polish_percent": 10,
+        "file_name": "polished10_llama70b_predictions.json",
+        "prediction_labels": {
+            "AI": {
+                "count": 37,
+                "rate": 0.7551020408163265
+            },
+            "human": {
+                "count": 12,
+                "rate": 0.24489795918367346
+            }
+        }
+    },
+    {
+        "polish_percent": 20,
+        "file_name": "polished20_llama70b_predictions.json",
+        "prediction_labels": {
+            "AI": {
+                "count": 35,
+                "rate": 0.7142857142857143
+            },
+            "human": {
+                "count": 14,
+                "rate": 0.2857142857142857
+            }
+        }
+    },
+    {
+        "polish_percent": 35,
+        "file_name": "polished35_llama70b_predictions.json",
+        "prediction_labels": {
+            "AI": {
+                "count": 38,
+                "rate": 0.76
+            },
+            "human": {
+                "count": 12,
+                "rate": 0.24
+            }
+        }
+    },
+    {
+        "polish_percent": 50,
+        "file_name": "polished50_llama70b_predictions.json",
+        "prediction_labels": {
+            "AI": {
+                "count": 36,
+                "rate": 0.782608695652174
+            },
+            "human": {
+                "count": 10,
+                "rate": 0.21739130434782608
+            }
+        }
+    },
+    {
+        "polish_percent": 75,
+        "file_name": "polished75_llama70b_predictions.json",
+        "prediction_labels": {
+            "AI": {
+                "count": 30,
+                "rate": 0.6818181818181818
+            },
+            "human": {
+                "count": 14,
+                "rate": 0.3181818181818182
+            }
+        }
+    },
+    {
+        "polish_type": "average",
+        "prediction_labels": {
+            "AI": {
+                "rate": 0.7219735189389137
+            },
+            "human": {
+                "rate": 0.2780264810610862
+            }
+        }
+    }
+]

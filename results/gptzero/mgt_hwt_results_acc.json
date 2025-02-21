@@ -1,0 +1,21 @@
+{
+    "threshold": 0.030303030303030304,
+    "accuracy": 0.8616666666666667,
+    "true_negative": {
+        "count": 255,
+        "rate": 0.425
+    },
+    "false_positive": {
+        "count": 45,
+        "rate": 0.075
+    },
+    "false_negative": {
+        "count": 38,
+        "rate": 0.06333333333333334
+    },
+    "true_positive": {
+        "count": 262,
+        "rate": 0.43666666666666665
+    },
+    "total": 600
+}

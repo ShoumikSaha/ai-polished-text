@@ -1,0 +1,2247 @@
+{
+    "scores": [
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "Dolly",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 11,
+            "fn": 14,
+            "accuracy": 0.44
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "Dolly",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 11,
+            "fn": 14,
+            "accuracy": 0.44
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "Dolly",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 11,
+            "fn": 14,
+            "accuracy": 0.44
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "Dolly",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 11,
+            "fn": 14,
+            "accuracy": 0.44
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "GPT4",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 11,
+            "fn": 6,
+            "accuracy": 0.6470588235294118
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "GPT4",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 11,
+            "fn": 6,
+            "accuracy": 0.6470588235294118
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "GPT4",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 11,
+            "fn": 6,
+            "accuracy": 0.6470588235294118
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "GPT4",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 11,
+            "fn": 6,
+            "accuracy": 0.6470588235294118
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGPT",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 8,
+            "fn": 7,
+            "accuracy": 0.5333333333333333
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGPT",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 8,
+            "fn": 7,
+            "accuracy": 0.5333333333333333
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGPT",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 8,
+            "fn": 7,
+            "accuracy": 0.5333333333333333
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGPT",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 8,
+            "fn": 7,
+            "accuracy": 0.5333333333333333
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "StableLM",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 15,
+            "fn": 1,
+            "accuracy": 0.9375
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "StableLM",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 15,
+            "fn": 1,
+            "accuracy": 0.9375
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "StableLM",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 15,
+            "fn": 1,
+            "accuracy": 0.9375
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "StableLM",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 15,
+            "fn": 1,
+            "accuracy": 0.9375
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGLM",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 12,
+            "fn": 6,
+            "accuracy": 0.6666666666666666
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGLM",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 12,
+            "fn": 6,
+            "accuracy": 0.6666666666666666
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGLM",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 12,
+            "fn": 6,
+            "accuracy": 0.6666666666666666
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGLM",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 12,
+            "fn": 6,
+            "accuracy": 0.6666666666666666
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 8,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 8,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 8,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 8,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "all",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 65,
+            "fn": 34,
+            "accuracy": 0.6565656565656566
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "all",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 65,
+            "fn": 34,
+            "accuracy": 0.6565656565656566
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "all",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 65,
+            "fn": 34,
+            "accuracy": 0.6565656565656566
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "all",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 65,
+            "fn": 34,
+            "accuracy": 0.6565656565656566
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "Dolly",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 11,
+            "fn": 14,
+            "accuracy": 0.44
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "Dolly",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 11,
+            "fn": 14,
+            "accuracy": 0.44
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "Dolly",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 11,
+            "fn": 14,
+            "accuracy": 0.44
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "Dolly",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 11,
+            "fn": 14,
+            "accuracy": 0.44
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "GPT4",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 11,
+            "fn": 6,
+            "accuracy": 0.6470588235294118
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "GPT4",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 11,
+            "fn": 6,
+            "accuracy": 0.6470588235294118
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "GPT4",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 11,
+            "fn": 6,
+            "accuracy": 0.6470588235294118
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "GPT4",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 11,
+            "fn": 6,
+            "accuracy": 0.6470588235294118
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGPT",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 8,
+            "fn": 7,
+            "accuracy": 0.5333333333333333
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGPT",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 8,
+            "fn": 7,
+            "accuracy": 0.5333333333333333
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGPT",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 8,
+            "fn": 7,
+            "accuracy": 0.5333333333333333
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGPT",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 8,
+            "fn": 7,
+            "accuracy": 0.5333333333333333
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "StableLM",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 15,
+            "fn": 1,
+            "accuracy": 0.9375
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "StableLM",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 15,
+            "fn": 1,
+            "accuracy": 0.9375
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "StableLM",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 15,
+            "fn": 1,
+            "accuracy": 0.9375
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "StableLM",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 15,
+            "fn": 1,
+            "accuracy": 0.9375
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGLM",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 12,
+            "fn": 6,
+            "accuracy": 0.6666666666666666
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGLM",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 12,
+            "fn": 6,
+            "accuracy": 0.6666666666666666
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGLM",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 12,
+            "fn": 6,
+            "accuracy": 0.6666666666666666
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGLM",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 12,
+            "fn": 6,
+            "accuracy": 0.6666666666666666
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 8,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 8,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 8,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 8,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "all",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 65,
+            "fn": 34,
+            "accuracy": 0.6565656565656566
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "all",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 65,
+            "fn": 34,
+            "accuracy": 0.6565656565656566
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "all",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 65,
+            "fn": 34,
+            "accuracy": 0.6565656565656566
+        },
+        {
+            "domain": "NarrativeQA_LLMs",
+            "model": "all",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 65,
+            "fn": 34,
+            "accuracy": 0.6565656565656566
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "Dolly",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 5,
+            "fn": 6,
+            "accuracy": 0.45454545454545453
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "Dolly",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 5,
+            "fn": 6,
+            "accuracy": 0.45454545454545453
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "Dolly",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 5,
+            "fn": 6,
+            "accuracy": 0.45454545454545453
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "Dolly",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 5,
+            "fn": 6,
+            "accuracy": 0.45454545454545453
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "GPT4",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 4,
+            "fn": 4,
+            "accuracy": 0.5
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "GPT4",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 4,
+            "fn": 4,
+            "accuracy": 0.5
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "GPT4",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 4,
+            "fn": 4,
+            "accuracy": 0.5
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "GPT4",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 4,
+            "fn": 4,
+            "accuracy": 0.5
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGPT",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 3,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGPT",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 3,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGPT",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 3,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGPT",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 3,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "StableLM",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 18,
+            "fn": 13,
+            "accuracy": 0.5806451612903226
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "StableLM",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 18,
+            "fn": 13,
+            "accuracy": 0.5806451612903226
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "StableLM",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 18,
+            "fn": 13,
+            "accuracy": 0.5806451612903226
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "StableLM",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 18,
+            "fn": 13,
+            "accuracy": 0.5806451612903226
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGLM",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 4,
+            "fn": 1,
+            "accuracy": 0.8
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGLM",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 4,
+            "fn": 1,
+            "accuracy": 0.8
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGLM",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 4,
+            "fn": 1,
+            "accuracy": 0.8
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGLM",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 4,
+            "fn": 1,
+            "accuracy": 0.8
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 4,
+            "fn": 1,
+            "accuracy": 0.8
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 4,
+            "fn": 1,
+            "accuracy": 0.8
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 4,
+            "fn": 1,
+            "accuracy": 0.8
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 4,
+            "fn": 1,
+            "accuracy": 0.8
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "all",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 38,
+            "fn": 25,
+            "accuracy": 0.6031746031746031
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "all",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 38,
+            "fn": 25,
+            "accuracy": 0.6031746031746031
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "all",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 38,
+            "fn": 25,
+            "accuracy": 0.6031746031746031
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "all",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 38,
+            "fn": 25,
+            "accuracy": 0.6031746031746031
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "Dolly",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 5,
+            "fn": 6,
+            "accuracy": 0.45454545454545453
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "Dolly",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 5,
+            "fn": 6,
+            "accuracy": 0.45454545454545453
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "Dolly",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 5,
+            "fn": 6,
+            "accuracy": 0.45454545454545453
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "Dolly",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 5,
+            "fn": 6,
+            "accuracy": 0.45454545454545453
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "GPT4",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 4,
+            "fn": 4,
+            "accuracy": 0.5
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "GPT4",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 4,
+            "fn": 4,
+            "accuracy": 0.5
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "GPT4",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 4,
+            "fn": 4,
+            "accuracy": 0.5
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "GPT4",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 4,
+            "fn": 4,
+            "accuracy": 0.5
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGPT",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 3,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGPT",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 3,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGPT",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 3,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGPT",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 3,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "StableLM",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 18,
+            "fn": 13,
+            "accuracy": 0.5806451612903226
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "StableLM",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 18,
+            "fn": 13,
+            "accuracy": 0.5806451612903226
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "StableLM",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 18,
+            "fn": 13,
+            "accuracy": 0.5806451612903226
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "StableLM",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 18,
+            "fn": 13,
+            "accuracy": 0.5806451612903226
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGLM",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 4,
+            "fn": 1,
+            "accuracy": 0.8
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGLM",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 4,
+            "fn": 1,
+            "accuracy": 0.8
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGLM",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 4,
+            "fn": 1,
+            "accuracy": 0.8
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGLM",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 4,
+            "fn": 1,
+            "accuracy": 0.8
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 4,
+            "fn": 1,
+            "accuracy": 0.8
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 4,
+            "fn": 1,
+            "accuracy": 0.8
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 4,
+            "fn": 1,
+            "accuracy": 0.8
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 4,
+            "fn": 1,
+            "accuracy": 0.8
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "all",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 38,
+            "fn": 25,
+            "accuracy": 0.6031746031746031
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "all",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 38,
+            "fn": 25,
+            "accuracy": 0.6031746031746031
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "all",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 38,
+            "fn": 25,
+            "accuracy": 0.6031746031746031
+        },
+        {
+            "domain": "SQuAD1_LLMs",
+            "model": "all",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 38,
+            "fn": 25,
+            "accuracy": 0.6031746031746031
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "Dolly",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 19,
+            "fn": 17,
+            "accuracy": 0.5277777777777778
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "Dolly",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 19,
+            "fn": 17,
+            "accuracy": 0.5277777777777778
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "Dolly",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 19,
+            "fn": 17,
+            "accuracy": 0.5277777777777778
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "Dolly",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 19,
+            "fn": 17,
+            "accuracy": 0.5277777777777778
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "GPT4",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 5,
+            "fn": 2,
+            "accuracy": 0.7142857142857143
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "GPT4",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 5,
+            "fn": 2,
+            "accuracy": 0.7142857142857143
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "GPT4",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 5,
+            "fn": 2,
+            "accuracy": 0.7142857142857143
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "GPT4",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 5,
+            "fn": 2,
+            "accuracy": 0.7142857142857143
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGPT",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 9,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGPT",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 9,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGPT",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 9,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGPT",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 9,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "StableLM",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 19,
+            "fn": 2,
+            "accuracy": 0.9047619047619048
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "StableLM",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 19,
+            "fn": 2,
+            "accuracy": 0.9047619047619048
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "StableLM",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 19,
+            "fn": 2,
+            "accuracy": 0.9047619047619048
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "StableLM",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 19,
+            "fn": 2,
+            "accuracy": 0.9047619047619048
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGLM",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 27,
+            "fn": 9,
+            "accuracy": 0.75
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGLM",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 27,
+            "fn": 9,
+            "accuracy": 0.75
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGLM",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 27,
+            "fn": 9,
+            "accuracy": 0.75
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGLM",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 27,
+            "fn": 9,
+            "accuracy": 0.75
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 21,
+            "fn": 8,
+            "accuracy": 0.7241379310344828
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 21,
+            "fn": 8,
+            "accuracy": 0.7241379310344828
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 21,
+            "fn": 8,
+            "accuracy": 0.7241379310344828
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 21,
+            "fn": 8,
+            "accuracy": 0.7241379310344828
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "all",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 100,
+            "fn": 38,
+            "accuracy": 0.7246376811594203
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "all",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 100,
+            "fn": 38,
+            "accuracy": 0.7246376811594203
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "all",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 100,
+            "fn": 38,
+            "accuracy": 0.7246376811594203
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "all",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 100,
+            "fn": 38,
+            "accuracy": 0.7246376811594203
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "Dolly",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 19,
+            "fn": 17,
+            "accuracy": 0.5277777777777778
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "Dolly",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 19,
+            "fn": 17,
+            "accuracy": 0.5277777777777778
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "Dolly",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 19,
+            "fn": 17,
+            "accuracy": 0.5277777777777778
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "Dolly",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 19,
+            "fn": 17,
+            "accuracy": 0.5277777777777778
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "GPT4",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 5,
+            "fn": 2,
+            "accuracy": 0.7142857142857143
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "GPT4",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 5,
+            "fn": 2,
+            "accuracy": 0.7142857142857143
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "GPT4",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 5,
+            "fn": 2,
+            "accuracy": 0.7142857142857143
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "GPT4",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 5,
+            "fn": 2,
+            "accuracy": 0.7142857142857143
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGPT",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 9,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGPT",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 9,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGPT",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 9,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGPT",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 9,
+            "fn": 0,
+            "accuracy": 1.0
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "StableLM",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 19,
+            "fn": 2,
+            "accuracy": 0.9047619047619048
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "StableLM",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 19,
+            "fn": 2,
+            "accuracy": 0.9047619047619048
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "StableLM",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 19,
+            "fn": 2,
+            "accuracy": 0.9047619047619048
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "StableLM",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 19,
+            "fn": 2,
+            "accuracy": 0.9047619047619048
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGLM",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 27,
+            "fn": 9,
+            "accuracy": 0.75
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGLM",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 27,
+            "fn": 9,
+            "accuracy": 0.75
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGLM",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 27,
+            "fn": 9,
+            "accuracy": 0.75
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGLM",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 27,
+            "fn": 9,
+            "accuracy": 0.75
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 21,
+            "fn": 8,
+            "accuracy": 0.7241379310344828
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 21,
+            "fn": 8,
+            "accuracy": 0.7241379310344828
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 21,
+            "fn": 8,
+            "accuracy": 0.7241379310344828
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "ChatGPT-turbo",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 21,
+            "fn": 8,
+            "accuracy": 0.7241379310344828
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "all",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 100,
+            "fn": 38,
+            "accuracy": 0.7246376811594203
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "all",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 100,
+            "fn": 38,
+            "accuracy": 0.7246376811594203
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "all",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 100,
+            "fn": 38,
+            "accuracy": 0.7246376811594203
+        },
+        {
+            "domain": "TruthfulQA_LLMs",
+            "model": "all",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 100,
+            "fn": 38,
+            "accuracy": 0.7246376811594203
+        },
+        {
+            "domain": "all",
+            "model": "Dolly",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 35,
+            "fn": 37,
+            "accuracy": 0.4861111111111111
+        },
+        {
+            "domain": "all",
+            "model": "Dolly",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 35,
+            "fn": 37,
+            "accuracy": 0.4861111111111111
+        },
+        {
+            "domain": "all",
+            "model": "Dolly",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 35,
+            "fn": 37,
+            "accuracy": 0.4861111111111111
+        },
+        {
+            "domain": "all",
+            "model": "Dolly",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 35,
+            "fn": 37,
+            "accuracy": 0.4861111111111111
+        },
+        {
+            "domain": "all",
+            "model": "GPT4",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 20,
+            "fn": 12,
+            "accuracy": 0.625
+        },
+        {
+            "domain": "all",
+            "model": "GPT4",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 20,
+            "fn": 12,
+            "accuracy": 0.625
+        },
+        {
+            "domain": "all",
+            "model": "GPT4",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 20,
+            "fn": 12,
+            "accuracy": 0.625
+        },
+        {
+            "domain": "all",
+            "model": "GPT4",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 20,
+            "fn": 12,
+            "accuracy": 0.625
+        },
+        {
+            "domain": "all",
+            "model": "ChatGPT",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 20,
+            "fn": 7,
+            "accuracy": 0.7407407407407407
+        },
+        {
+            "domain": "all",
+            "model": "ChatGPT",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 20,
+            "fn": 7,
+            "accuracy": 0.7407407407407407
+        },
+        {
+            "domain": "all",
+            "model": "ChatGPT",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 20,
+            "fn": 7,
+            "accuracy": 0.7407407407407407
+        },
+        {
+            "domain": "all",
+            "model": "ChatGPT",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 20,
+            "fn": 7,
+            "accuracy": 0.7407407407407407
+        },
+        {
+            "domain": "all",
+            "model": "StableLM",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 52,
+            "fn": 16,
+            "accuracy": 0.7647058823529411
+        },
+        {
+            "domain": "all",
+            "model": "StableLM",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 52,
+            "fn": 16,
+            "accuracy": 0.7647058823529411
+        },
+        {
+            "domain": "all",
+            "model": "StableLM",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 52,
+            "fn": 16,
+            "accuracy": 0.7647058823529411
+        },
+        {
+            "domain": "all",
+            "model": "StableLM",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 52,
+            "fn": 16,
+            "accuracy": 0.7647058823529411
+        },
+        {
+            "domain": "all",
+            "model": "ChatGLM",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 43,
+            "fn": 16,
+            "accuracy": 0.7288135593220338
+        },
+        {
+            "domain": "all",
+            "model": "ChatGLM",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 43,
+            "fn": 16,
+            "accuracy": 0.7288135593220338
+        },
+        {
+            "domain": "all",
+            "model": "ChatGLM",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 43,
+            "fn": 16,
+            "accuracy": 0.7288135593220338
+        },
+        {
+            "domain": "all",
+            "model": "ChatGLM",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 43,
+            "fn": 16,
+            "accuracy": 0.7288135593220338
+        },
+        {
+            "domain": "all",
+            "model": "ChatGPT-turbo",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 33,
+            "fn": 9,
+            "accuracy": 0.7857142857142857
+        },
+        {
+            "domain": "all",
+            "model": "ChatGPT-turbo",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 33,
+            "fn": 9,
+            "accuracy": 0.7857142857142857
+        },
+        {
+            "domain": "all",
+            "model": "ChatGPT-turbo",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 33,
+            "fn": 9,
+            "accuracy": 0.7857142857142857
+        },
+        {
+            "domain": "all",
+            "model": "ChatGPT-turbo",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 33,
+            "fn": 9,
+            "accuracy": 0.7857142857142857
+        },
+        {
+            "domain": "all",
+            "model": "all",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 203,
+            "fn": 97,
+            "accuracy": 0.6766666666666666
+        },
+        {
+            "domain": "all",
+            "model": "all",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 203,
+            "fn": 97,
+            "accuracy": 0.6766666666666666
+        },
+        {
+            "domain": "all",
+            "model": "all",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "none",
+            "tp": 203,
+            "fn": 97,
+            "accuracy": 0.6766666666666666
+        },
+        {
+            "domain": "all",
+            "model": "all",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "none",
+            "tp": 203,
+            "fn": 97,
+            "accuracy": 0.6766666666666666
+        },
+        {
+            "domain": "all",
+            "model": "Dolly",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 35,
+            "fn": 37,
+            "accuracy": 0.4861111111111111
+        },
+        {
+            "domain": "all",
+            "model": "Dolly",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 35,
+            "fn": 37,
+            "accuracy": 0.4861111111111111
+        },
+        {
+            "domain": "all",
+            "model": "Dolly",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 35,
+            "fn": 37,
+            "accuracy": 0.4861111111111111
+        },
+        {
+            "domain": "all",
+            "model": "Dolly",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 35,
+            "fn": 37,
+            "accuracy": 0.4861111111111111
+        },
+        {
+            "domain": "all",
+            "model": "GPT4",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 20,
+            "fn": 12,
+            "accuracy": 0.625
+        },
+        {
+            "domain": "all",
+            "model": "GPT4",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 20,
+            "fn": 12,
+            "accuracy": 0.625
+        },
+        {
+            "domain": "all",
+            "model": "GPT4",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 20,
+            "fn": 12,
+            "accuracy": 0.625
+        },
+        {
+            "domain": "all",
+            "model": "GPT4",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 20,
+            "fn": 12,
+            "accuracy": 0.625
+        },
+        {
+            "domain": "all",
+            "model": "ChatGPT",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 20,
+            "fn": 7,
+            "accuracy": 0.7407407407407407
+        },
+        {
+            "domain": "all",
+            "model": "ChatGPT",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 20,
+            "fn": 7,
+            "accuracy": 0.7407407407407407
+        },
+        {
+            "domain": "all",
+            "model": "ChatGPT",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 20,
+            "fn": 7,
+            "accuracy": 0.7407407407407407
+        },
+        {
+            "domain": "all",
+            "model": "ChatGPT",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 20,
+            "fn": 7,
+            "accuracy": 0.7407407407407407
+        },
+        {
+            "domain": "all",
+            "model": "StableLM",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 52,
+            "fn": 16,
+            "accuracy": 0.7647058823529411
+        },
+        {
+            "domain": "all",
+            "model": "StableLM",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 52,
+            "fn": 16,
+            "accuracy": 0.7647058823529411
+        },
+        {
+            "domain": "all",
+            "model": "StableLM",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 52,
+            "fn": 16,
+            "accuracy": 0.7647058823529411
+        },
+        {
+            "domain": "all",
+            "model": "StableLM",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 52,
+            "fn": 16,
+            "accuracy": 0.7647058823529411
+        },
+        {
+            "domain": "all",
+            "model": "ChatGLM",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 43,
+            "fn": 16,
+            "accuracy": 0.7288135593220338
+        },
+        {
+            "domain": "all",
+            "model": "ChatGLM",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 43,
+            "fn": 16,
+            "accuracy": 0.7288135593220338
+        },
+        {
+            "domain": "all",
+            "model": "ChatGLM",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 43,
+            "fn": 16,
+            "accuracy": 0.7288135593220338
+        },
+        {
+            "domain": "all",
+            "model": "ChatGLM",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 43,
+            "fn": 16,
+            "accuracy": 0.7288135593220338
+        },
+        {
+            "domain": "all",
+            "model": "ChatGPT-turbo",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 33,
+            "fn": 9,
+            "accuracy": 0.7857142857142857
+        },
+        {
+            "domain": "all",
+            "model": "ChatGPT-turbo",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 33,
+            "fn": 9,
+            "accuracy": 0.7857142857142857
+        },
+        {
+            "domain": "all",
+            "model": "ChatGPT-turbo",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 33,
+            "fn": 9,
+            "accuracy": 0.7857142857142857
+        },
+        {
+            "domain": "all",
+            "model": "ChatGPT-turbo",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 33,
+            "fn": 9,
+            "accuracy": 0.7857142857142857
+        },
+        {
+            "domain": "all",
+            "model": "all",
+            "decoding": "none",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 203,
+            "fn": 97,
+            "accuracy": 0.6766666666666666
+        },
+        {
+            "domain": "all",
+            "model": "all",
+            "decoding": "none",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 203,
+            "fn": 97,
+            "accuracy": 0.6766666666666666
+        },
+        {
+            "domain": "all",
+            "model": "all",
+            "decoding": "all",
+            "repetition_penalty": "none",
+            "attack": "all",
+            "tp": 203,
+            "fn": 97,
+            "accuracy": 0.6766666666666666
+        },
+        {
+            "domain": "all",
+            "model": "all",
+            "decoding": "all",
+            "repetition_penalty": "all",
+            "attack": "all",
+            "tp": 203,
+            "fn": 97,
+            "accuracy": 0.6766666666666666
+        }
+    ],
+    "thresholds": 0.8884263468013469,
+    "fpr": 0.050000000000000044,
+    "target_fpr": 0.05
+}

@@ -1,0 +1,13 @@
+{
+    "prediction_labels": {
+        "AI": {
+            "count": 77,
+            "rate": 0.4375
+        },
+        "human": {
+            "count": 99,
+            "rate": 0.5625
+        }
+    },
+    "threshold": 0.3552002916582866
+}
