@@ -3,7 +3,7 @@
 model="detectgpt"
 #polish_pctg="10"
 polish_type_list=("extreme_minor" "minor" "slight_major" "major")
-polisher_models=("llama70b")
+polisher_models=("gpt" "llama70b" "llama" "llama2")
 
 for polisher_model in "${polisher_models[@]}"
 do

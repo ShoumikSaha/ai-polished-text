@@ -23,6 +23,11 @@ To setup, run this --
 conda env create -f environment.yml
 ```
 
+Setup the api-keys, by running --
+```
+source set_api_keys.sh
+```
+
 ## Detectors
 
 ### Included Detectors
@@ -39,26 +44,79 @@ Above-mentioned detectors are already validated on 600 samples of HWT and AI-tex
 However, if you want to validate a new detector or on a different dataset, use the `run_detector_basic.sh`:
 
 ```
-model="model_name"
-
 $ python detect_cli.py 
-    -m "$model" 
-    -d "data/merged_mgt_hwt_data.csv" # Replace with your own dataset file
-    -o "results/${model}/mgt_hwt_predictions.json" # Path to write the predictions JSON file
-
-$ python evaluate_cli.py 
-    -r "results/${model}/mgt_hwt_predictions.json" # Use the previous predictions JSON file path
-    -d "data/merged_mgt_hwt_data.csv" # Replace with your own dataset file
-    -o "results/${model}/mgt_hwt_results.json" # Path to write the final results JSON file
+    -m, --model           The name of the detector model you wish to run
+    -d, --data_path       The path to the csv file with the dataset
+    -o, --output_path     The path to write the predictions JSON file
 ```
+
+```
+$ python evaluate_cli.py
+    -r, --results_path    The path to the detection predictions JSON file
+    -d, --data_path       The path to the csv file with the dataset
+    -o, --output_path     The path to write the final results JSON file
+```
+Example:
+```
+#!/bin/bash
+
+model="radar"
+
+python detect_cli.py -m "$model" -d "data/merged_mgt_hwt_data.csv" -o "results/${model}/mgt_hwt_predictions.json"
+
+python evaluate_cli.py -r "results/${model}/mgt_hwt_predictions.json" -d "data/merged_mgt_hwt_data.csv" -o "results/${model}/mgt_hwt_results.json"
+```
+
 This will result into 3 different JSON file -- 
 - predictions.json: contains predictions score for each sample.
 - results_acc.json: contains the best accuracy with its threshold (including confusion matrix).
 - results_fpr.json: contains results for 5% FPR (or the second lowest) for all combinations.
 
 
-### Evaluating Detectors on APT-Eval
+### Running Detectors on APT-Eval
 
+To evaluate detectors on our APT-Eval dataset, run the following:
+```
+$ python detect_cli.py 
+    -m, --model           The name of the detector model you wish to run
+    -d, --data_path       The path to the csv file for the polished-dataset ('data/polished')
+    -o, --output_path     The path to write the predictions JSON file
+```
+
+```
+$ python evaluate_for_hybrid.py
+    -r, --results_path    The path to the detection predictions JSON file
+    -d, --data_path       The path to the csv file with the dataset
+    -th, --threshold_path The path to the results_acc JSON file
+    -o, --output_path     The path to write the final results JSON file
+```
+
+Example:
+```
+#!/bin/bash
+
+model="radar"
+polish_type="extreme_minor" # Replace with your desired polish-type
+polisher_model="gpt" # Replace with your desired polisher-type
+
+
+python detect_cli.py 
+    -m "$model" 
+    -d "data/polished/polished_texts_${polish_type}_${polisher_model}.csv" 
+    -o "results/${model}/polished_${polish_type}_${polisher_model}_predictions.json"
+
+python evaluate_for_hybrid.py 
+    -r "results/${model}/polished_${polish_type}_${polisher_model}_predictions.json" 
+    -d "data/polished/polished_texts_${polish_type}_${polisher_model}.csv" 
+    -th "results/${model}/mgt_hwt_results_acc.json" 
+    -o "results/${model}/polished_${polish_type}_${polisher_model}_results.json"
+```
+
+If you want to automate the running for all polish-type (degree-based) with all polishers, use the script `run_detector_hybrid_polish_type.sh`. For percentage-based polishing, use the script `run_detector_hybrid_polish_prctg.sh`.
+
+### Results
+
+Running the above mentioned commands will generate result files under the `results/model_name` directory. However, we have already provided all the results (from our paper) there. Feel free to use/extend them, and extract more insights out of them. 
 
 
 *This codebase was built upon the [RAID](https://github.com/liamdugan/raid) repo.  

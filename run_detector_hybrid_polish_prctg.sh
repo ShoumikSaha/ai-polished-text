@@ -1,11 +1,8 @@
 #!/bin/bash
 
 model="gltr"
-#polish_pctg="10"
 polish_pctg_list=("1" "5" "10" "20" "35" "50" "75")
-#polisher_type="gpt"
-#polish_pctg_list=("75")
-polisher_models=("llama70b")
+polisher_models=("gpt" "llama70b" "llama" "llama2")
 
 for polisher_type in "${polisher_models[@]}"
 do
