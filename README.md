@@ -1,4 +1,5 @@
 # APT-Eval 
+This repository is the implementation of the paper 'Almost AI, Almost Human: The Challenge of Detecting AI-Polished Writing'.
 
 ## Dataset Overview
 
