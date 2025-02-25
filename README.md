@@ -121,3 +121,19 @@ Running the above mentioned commands will generate result files under the `resul
 
 
 *This codebase was built upon the [RAID](https://github.com/liamdugan/raid) repo.  
+
+## Citation
+
+If you use our code or findings in your research, please cite us as:
+
+```
+@misc{saha2025aihumanchallengedetecting,
+      title={Almost AI, Almost Human: The Challenge of Detecting AI-Polished Writing}, 
+      author={Shoumik Saha and Soheil Feizi},
+      year={2025},
+      eprint={2502.15666},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.15666}, 
+}
+```
