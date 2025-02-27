@@ -1,0 +1,9 @@
+{
+    "prediction_labels": {
+        "human": {
+            "count": 298,
+            "rate": 1.0
+        }
+    },
+    "threshold": 0.010101016001267867
+}
