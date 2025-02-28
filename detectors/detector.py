@@ -1,15 +1,16 @@
-from .models.binoculars.binoculars import Binoculars
-from .models.chatgpt_roberta_detector.chatgpt_detector import ChatGPTDetector
-from .models.detectgpt.detectgpt import DetectGPT
-from .models.fast_detectgpt.fast_detectgpt import FastDetectGPT
-from .models.gltr.gltr import GLTR
-from .models.gpt2_detector.gpt2_detector import GPT2Detector
-from .models.gptzero.gptzero import GPTZero
-from .models.llmdet.llmdet import LLMDet
-from .models.originality_ai.originality_ai import OriginalityAI
-from .models.radar.radar import Radar
-from .models.winston_ai.winston_ai import WinstonAI
-from .models.zerogpt.zerogpt import ZeroGPT
+# from .models.binoculars.binoculars import Binoculars
+# from .models.chatgpt_roberta_detector.chatgpt_detector import ChatGPTDetector
+# from .models.detectgpt.detectgpt import DetectGPT
+# from .models.fast_detectgpt.fast_detectgpt import FastDetectGPT
+# from .models.gltr.gltr import GLTR
+# from .models.gpt2_detector.gpt2_detector import GPT2Detector
+# from .models.gptzero.gptzero import GPTZero
+# from .models.llmdet.llmdet import LLMDet
+# from .models.originality_ai.originality_ai import OriginalityAI
+from .models.pangram.pangram import Pangram
+# from .models.radar.radar import Radar
+# from .models.winston_ai.winston_ai import WinstonAI
+# from .models.zerogpt.zerogpt import ZeroGPT
 
 
 class Detector:
@@ -50,5 +51,7 @@ def get_detector(detector_name: str) -> Detector:
         return OriginalityAI()
     elif detector_name == "binoculars":
         return Binoculars()
+    elif detector_name == "pangram":
+        return Pangram()
     else:
         raise ValueError("Invalid detector name")
