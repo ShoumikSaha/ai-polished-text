@@ -26,3 +26,6 @@ export ZEROGPT_API_KEY=""
 
 # Winston
 export WINSTON_API_KEY=""
+
+#Pangram
+export PANGRAM_API_KEY=""
