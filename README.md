@@ -5,12 +5,12 @@ This repository is the implementation of the paper ['Almost AI, Almost Human: Th
 
 The **APT-Eval** dataset includes over **11.7K**  AI-polished-text samples. They can be found in `data/polished` directory. The overview of our dataset is given below --
 
-| **Polish Type**                           | **GPT-4o** | **Llama3.1-70B** | **Llama3-8B** | **Llama2-7B** | **Total** |
-|-------------------------------------------|------------|------------------|---------------|---------------|-----------|
-| **no-polish / pure HWT**                  | -          | -                | -             | -             | 300       |
-| **Degree-based**                          | 1152       | 1085             | 1125          | 744           | 4406      |
-| **Percentage-based**                      | 2072       | 2048             | 1977          | 1282          | 7379      |
-| **Total**                                 | 3224       | 3133             | 3102          | 2026          | **11785** |
+| **Polish Type**                           | **GPT-4o** | **Llama3.1-70B** | **Llama3-8B** | **Llama2-7B** | **DeepSeek-V3** | **Total** |
+|-------------------------------------------|------------|------------------|---------------|---------------|-- |-----------|
+| **no-polish / pure HWT**                  | -          | -                | -             | -             | - | 300       |
+| **Degree-based**                          | 1152       | 1085             | 1125          | 744           | 1141 | 4406      |
+| **Percentage-based**                      | 2072       | 2048             | 1977          | 1282          | 2078 | 7379      |
+| **Total**                                 | 3224       | 3133             | 3102          | 2026          | 3219 | **15004** |
 
 
 APT-Eval is the only dataset that covers AI-polishing of different degrees. For more details, check out our paper. To access all samples (unfiltered) with distance and similarity metrics, see the `data/polished_json` directory.
