@@ -3,7 +3,7 @@ This repository is the implementation of the paper ['Almost AI, Almost Human: Th
 
 ## Dataset Overview
 
-The **APT-Eval** dataset includes over **11.7K**  AI-polished-text samples. They can be found in `data/polished` directory. The overview of our dataset is given below --
+The **APT-Eval** dataset includes over **15K**  AI-polished-text samples. They can be found in `data/polished` directory. The overview of our dataset is given below --
 
 | **Polish Type**                           | **GPT-4o** | **Llama3.1-70B** | **Llama3-8B** | **Llama2-7B** | **DeepSeek-V3** | **Total** |
 |-------------------------------------------|------------|------------------|---------------|---------------|-- |-----------|
@@ -14,6 +14,24 @@ The **APT-Eval** dataset includes over **11.7K**  AI-polished-text samples. They
 
 
 APT-Eval is the only dataset that covers AI-polishing of different degrees. For more details, check out our paper. To access all samples (unfiltered) with distance and similarity metrics, see the `data/polished_json` directory.
+
+You can also load it from [huggingface](https://huggingface.co/datasets/smksaha/apt-eval) --
+
+First, install the library `datasets` with `pip install datasets`. Then,
+
+```
+from datasets import load_dataset
+apt_eval_dataset = load_dataset("smksaha/apt-eval")
+```
+
+If you also want to access the original human written text samples, use this
+```
+from datasets import load_dataset
+dataset = load_dataset("smksaha/apt-eval", data_files={
+    "test": "merged_apt_eval_dataset.csv",
+    "original": "original.csv"
+})
+``` 
 
 ## Installation
 
