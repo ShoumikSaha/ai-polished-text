@@ -84,7 +84,7 @@ source set_api_keys.sh
 
 2. **Metric-based:** GLTR, DetectGPT, FastDetectGPT, LLMDet, Binoculars.
 
-3. **Commercial:** [ZeroGPT](https://www.zerogpt.com/), [GPTZero](https://gptzero.me/).
+3. **Commercial:** [ZeroGPT](https://www.zerogpt.com/), [GPTZero](https://gptzero.me/), [Pangram](https://www.pangram.com/)
 
 
 ### Validating Detectors
@@ -179,10 +179,6 @@ If you use our code or findings in your research, please cite us as:
     title = "Almost {AI}, Almost Human: The Challenge of Detecting {AI}-Polished Writing",
     author = "Saha, Shoumik  and
       Feizi, Soheil",
-    editor = "Che, Wanxiang  and
-      Nabende, Joyce  and
-      Shutova, Ekaterina  and
-      Pilehvar, Mohammad Taher",
     booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
     month = jul,
     year = "2025",
