@@ -1,5 +1,35 @@
-# APT-Eval 
-This repository is the implementation of the paper ['Almost AI, Almost Human: The Challenge of Detecting AI-Polished Writing'](https://arxiv.org/abs/2502.15666).
+<div align="center">
+<h1>🚨 APT-Eval Benchmark 🚨
+
+Almost AI, Almost Human: The Challenge of Detecting AI-Polished Writing </h1>
+📝 <a href="https://aclanthology.org/2025.findings-acl.1303.pdf"><b>Paper</b></a>, 🤗 <a href="https://huggingface.co/datasets/smksaha/apt-eval"><b>Huggingface</b></a>
+</div>
+
+This repository contains the official implementation of the **ACL 2025** paper ['Almost AI, Almost Human: The Challenge of Detecting AI-Polished Writing'](https://aclanthology.org/2025.findings-acl.1303.pdf)
+
+---
+
+## Press Releases
+| Press | News Link |
+|-------------|--------|
+| The New York Times | [A New Headache for Honest Students: Proving They Didn’t Use A.I.](https://www.nytimes.com/2025/05/17/style/ai-chatgpt-turnitin-students-cheating.html) |
+| Plagiarism Today | [The Problem with AI Polishing](https://www.plagiarismtoday.com/2025/06/04/the-problem-with-ai-polishing/) |
+| The Science Archive | [Detecting Deception: The Challenge of Identifying AI-Generated Content](https://thesciencearchive.org/2502-15666v1/) |
+| The Cheat Sheet | [AI Detectors Flag Work that Has Used AI to “Polish” Writing](https://thecheatsheet.substack.com/p/367-study-ai-detectors-are-accurate) |
+
+---
+
+---
+
+## News
+| Date (2025) | Update |
+|-------------|--------|
+| **Jul 26** | 🎉 Poster presented at ACL 2025 (virtual Gather space, booth 5103). Slides & recording now [available](https://underline.io/events/485/posters/20543/poster/123620-almost-ai-almost-human-the-challenge-of-detecting-ai-polished-writing). |
+| **May 16** | Got featured in [The New York Times](https://www.nytimes.com/2025/05/17/style/ai-chatgpt-turnitin-students-cheating.html). |
+| **May 15** | Dataset mirrored on HuggingFace Datasets hub for one-line loading. |
+| **Feb 21** | Pre-print released on arXiv: [2502.15666](https://arxiv.org/abs/2502.15666). |
+
+---
 
 ## Dataset Overview
 
@@ -145,10 +175,22 @@ Running the above mentioned commands will generate result files under the `resul
 If you use our code or findings in your research, please cite us as:
 
 ```
-@article{saha2025almost,
-  title={Almost AI, Almost Human: The Challenge of Detecting AI-Polished Writing},
-  author={Saha, Shoumik and Feizi, Soheil},
-  journal={arXiv preprint arXiv:2502.15666},
-  year={2025}
+@inproceedings{saha-feizi-2025-almost,
+    title = "Almost {AI}, Almost Human: The Challenge of Detecting {AI}-Polished Writing",
+    author = "Saha, Shoumik  and
+      Feizi, Soheil",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.1303/",
+    pages = "25414--25431",
+    ISBN = "979-8-89176-256-5",
+    abstract = "The growing use of large language models (LLMs) for text generation has led to widespread concerns about AI-generated content detection. However, an overlooked challenge is AI-polished text, where human-written content undergoes subtle refinements using AI tools. This raises a critical question: should minimally polished text be classified as AI-generated? Such classification can lead to false plagiarism accusations and misleading claims about AI prevalence in online content. In this study, we systematically evaluate *twelve* state-of-the-art AI-text detectors using our **AI-Polished-Text Evaluation (APT-Eval)** dataset, which contains $15K$ samples refined at varying AI-involvement levels. Our findings reveal that detectors frequently flag even minimally polished text as AI-generated, struggle to differentiate between degrees of AI involvement, and exhibit biases against older and smaller models. These limitations highlight the urgent need for more nuanced detection methodologies."
 }
 ```
