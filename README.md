@@ -2,7 +2,7 @@
 <h1>🚨 APT-Eval Benchmark 🚨
 
 Almost AI, Almost Human: The Challenge of Detecting AI-Polished Writing </h1>
-📝 <a href="https://aclanthology.org/2025.findings-acl.1303.pdf"><b>Paper</b></a>, 🤗 <a href="https://huggingface.co/datasets/smksaha/apt-eval"><b>Huggingface</b></a>
+📝 <a href="https://aclanthology.org/2025.findings-acl.1303.pdf"><b>Paper</b></a>, 🤗 <a href="https://huggingface.co/datasets/smksaha/apt-eval"><b>Huggingface</b></a>, 🎥 <a href="https://underline.io/events/485/posters/20543/poster/123620-almost-ai-almost-human-the-challenge-of-detecting-ai-polished-writing?tab=video>"><b>Recording</b></a>
 </div>
 
 This repository contains the official implementation of the **ACL 2025** paper ['Almost AI, Almost Human: The Challenge of Detecting AI-Polished Writing'](https://aclanthology.org/2025.findings-acl.1303.pdf)
@@ -25,7 +25,7 @@ This repository contains the official implementation of the **ACL 2025** paper [
 | Date (2025) | Update |
 |-------------|--------|
 | **Jul 26** | 🎉 Poster presented at ACL 2025 (virtual Gather space, booth 5103). Slides & recording now [available](https://underline.io/events/485/posters/20543/poster/123620-almost-ai-almost-human-the-challenge-of-detecting-ai-polished-writing). |
-| **May 16** | Got featured in [The New York Times](https://www.nytimes.com/2025/05/17/style/ai-chatgpt-turnitin-students-cheating.html). |
+| **May 16** | 🔈 Got featured in [The New York Times](https://www.nytimes.com/2025/05/17/style/ai-chatgpt-turnitin-students-cheating.html). |
 | **May 15** | Dataset mirrored on HuggingFace Datasets hub for one-line loading. |
 | **Feb 21** | Pre-print released on arXiv: [2502.15666](https://arxiv.org/abs/2502.15666). |
 
